@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <!--Fontawesome CDN-->
+  <script src="https://kit.fontawesome.com/2c369df206.js" crossorigin="anonymous"></script>
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <header class="header main">
+    <div class="logo">
+      <a href="#"><h4>Leon</h4></a>
+    </div>
+    <!--Desktop Menu-->
+    <nav class="header__navigation">
+      <ul class="menu">
+        <li class="menu__items"><a href="#home">Home</a></li>
+        <li class="menu__items"><a href="#about">About</a></li>
+        <li class="menu__items"><a href="#post">Recent Post</a></li>
+        <li class="menu__items"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!--Mobile Menu-->
+    <nav class="header__menu--mobile">
+      <input type="checkbox" name="nav-menu" id="nav-menu" class="nav__check">
+      <ul class="menu--mobile">
+        <li class="menu__item--mobile"><a href="#home">Home</a></li>
+        <li class="menu__item--mobile"><a href="#about">About</a></li>
+        <li class="menu__item--mobile"><a href="#post">Recent Post</a></li>
+        <li class="menu__item--mobile"><a href="#contact">Contact</a></li>
+      </ul>
+      <label for="nav-menu">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+    </nav>
+  </header>
+  <section class="hero main">
+    <div class="hero__left">
+      <h1 class="hero__heading">Hi, I am Leon, <br> Web Designer</h1>
+      <p class="hero__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolore quisquam reiciendis adipisci nobis ad, cupiditate impedit! Adipisci corporis consequuntur ea quo soluta culpa earum, enim delectus, assumenda, in iste.</p>
+      <a href="#" class="hero__btn">Download Resume</a>
+    </div>
+    <div class="hero__right">
+      <img src="Assets/Leon Islam.png" alt="Leon Islam" class="hero__img">
+    </div>
+  </section>
+  <section class="table main">
+    <table class="client__info">
+      <caption>Client Info</caption>
+      <thead>
+        <tr>
+          <th>Client Name</th>
+          <th>Client Email</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lacob Geoargescu</td>
+          <td>e-mail@tes-email.com</td>
+          <td>2020</td>
+        </tr><tr>
+          <td>Lacob Geoargescu</td>
+          <td>e-mail@tes-email.com</td>
+          <td>2020</td>
+        </tr>
+        <tr>
+          <td>Lacob Geoargescu</td>
+          <td>e-mail@tes-email.com</td>
+          <td>2020</td>
+        </tr>
+        <tr>
+          <td>Lacob Geoargescu</td>
+          <td>e-mail@tes-email.com</td>
+          <td>2020</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Update 2023</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+  <section class="contact main">
+    <div class="conteact__image">
+      <img src="Assets/contact.svg" alt="Contact Image">
+    </div>
+    <div class="contact__info">
+      <h4 class="contact__heading">Get in touch</h4>
+      <form action="" class="form">
+        <label for="name">
+          <div class="form__wrapper">
+            <span><i class="fa-solid fa-user"></i></span>
+            <input type="text" name="name" id="name" placeholder="Name" autocomplete="off">
+          </div>
+        </label>
+        <label for="email">
+          <div class="form__wrapper">
+            <span><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
+          </div>
+        </label>
+        <textarea name="textarea" id="textarea" placeholder="Message" cols="30" rows="10"></textarea> <br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  <!--Footer Section Start-->
+  <footer class="footer">
+    <div class="footer__wrapper main">
+      <p class="footer__text"><i class="fa fa-copyright" aria-hidden="true"></i>All Rights Reserved | Leon Islam</p>
+    </div>
+  </footer>
+  <!--Footer Section End-->
+</body>
+</html>

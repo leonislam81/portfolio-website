@@ -1,0 +1,36 @@
+.table {
+  padding: 60px 20px 60px 20px;
+}
+
+.client__info {
+  width: 100%;
+  border-collapse: collapse!important;
+  text-align: left;
+}
+
+.client__info, thead, tbody, th, td {
+  border: 1px solid #eee;
+}
+
+.client__info caption {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.client__info thead {
+  background-color: #15202B;
+  color: white;
+}
+.client__info tbody {
+  background-color: #38444D;
+  color: white;
+}
+
+.client__info th, td {
+  padding: 12px 15px;
+}
+
+.client__info tfoot {
+  text-align: center;
+}
